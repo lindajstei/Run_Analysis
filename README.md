@@ -33,7 +33,34 @@ The script run_analysis.R performs the following:
     - Order the resulting tidy table by subject, activity, then mean values of each variable
     - Write the table to a text file called Tidy.txt
 
-```{r}
+
+```r
 sessionInfo()
+```
+
+```
+## R version 3.2.2 (2015-08-14)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 8 x64 (build 9200)
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.1252 
+## [2] LC_CTYPE=English_United States.1252   
+## [3] LC_MONETARY=English_United States.1252
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] knitr_1.10.5     dplyr_0.4.3      data.table_1.9.4
+## 
+## loaded via a namespace (and not attached):
+##  [1] Rcpp_0.11.6     digest_0.6.8    assertthat_0.1  mime_0.3       
+##  [5] chron_2.3-47    plyr_1.8.3      R6_2.1.0        DBI_0.3.1      
+##  [9] formatR_1.2     magrittr_1.5    evaluate_0.7    stringi_0.5-5  
+## [13] reshape2_1.4.1  rmarkdown_0.7   tools_3.2.2     stringr_1.0.0  
+## [17] markdown_0.7.7  yaml_2.1.13     parallel_3.2.2  htmltools_0.2.6
 ```
 
